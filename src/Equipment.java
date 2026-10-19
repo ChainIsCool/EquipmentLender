@@ -49,7 +49,7 @@ class Equipment {
     }
     public String loanerString() {
         // Loaner in string form
-        if (loaner == "") {
+        if (loaner.isEmpty()) {
             return "None";
         } else {
             return loaner;
