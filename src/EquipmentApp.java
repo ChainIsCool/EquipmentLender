@@ -25,7 +25,7 @@ public class EquipmentApp {
             input.nextLine();
             switch (choice) {
                 case 1:
-                    for()
+
                     break;
 
                 case 2:
