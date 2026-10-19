@@ -19,6 +19,7 @@ class Equipment {
     }
     // To String
     public String toString() {
+        // Simple toString()
         if (isLoaned) {
             return "Item: " + name + " | Tag: " + tag + " | Loaned: " + isLoanedString() +
                     "\nLoaner: " + loanerString() + " | Signed Out: " + loanDate + " | Due: " + dueDate;
