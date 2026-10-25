@@ -21,10 +21,10 @@ class Equipment {
     public String toString() {
         // Simple toString()
         if (isLoaned) {
-            return "Item: " + name + " | Tag: " + tag + " | Loaned: " + isLoanedString() +
+            return "Item: " + name + " | Tag: " + tag + " | Status: Loaned" +
                     "\nLoaner: " + loanerString() + " | Signed Out: " + loanDate + " | Due: " + dueDate;
         } else {
-            return "Item: " + name + " | Tag: " + tag + " | Loaned: " + isLoanedString() ;
+            return "Item: " + name + " | Tag: " + tag + " | Status: Not Loaned ";
         }
     }
     // Getters
